@@ -1,0 +1,121 @@
+header, hgroup, aside, footer, section, article, nav{
+  display: block;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: linear-gradient(70deg, #66ccff, #ccccff);
+}
+#general{
+  padding: 10px;
+}
+header{
+  width: 100%;
+  border-bottom: 2px solid black;
+  position: fixed;
+  float: left;
+  box-shadow: 3px 3px 8px black;
+  margin-bottom: 5px;
+  background: linear-gradient(45deg, blue, white);
+}
+hgroup{
+  color: white;
+  text-shadow: 3px 3px 6px black;
+  text-align: center;
+  padding: 6px;
+  width: 100%;
+}
+
+#deNavi{
+  box-shadow: 3px 3px 8px black;
+  clear: both;
+}
+nav > ul{
+  margin-top: 8px;
+  text-align: center;
+  padding: 8px;
+  list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 7px;
+  background: linear-gradient(-45deg, #33ffff, blue);
+}
+#deNavi > li{
+  display: inline;
+}
+#deNavi li+li:before{
+  padding: 12px;
+  content: "/\00a0";
+}
+#deNavi > li > a{
+  font-style: italic;
+  font-weight: bold;
+  color: #66ffcc;
+  text-shadow: 3px 3px 6px black;
+}
+
+#contactos{
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+}
+#contactos > li{
+  list-style: none;
+}
+#contactos > li > a{
+  color: blue;
+  text-shadow: 3px 3px 8px white;
+  font-weight: bold;
+}
+
+p{
+  font-weight: bold;
+  text-shadow: 3px 3px 10px black;
+  font-family: georgia sans-serif;
+}
+#aside{
+  text-align: center;
+  background: linear-gradient(-45deg, blue, white);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  font-family: georgia sans-serif;
+}
+#presentacion{
+  float: left;
+  width: 55%;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: justify;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+aside{
+  float: left;
+  width: 40%;
+  border-right: 1px solid black;
+  border-radius: 8px;
+  padding: 2px;
+  margin-left: 6px;
+  background: linear-gradient(40deg, grey, white);
+}
+footer{
+  width: 98%;
+  padding: 1%;
+  border-top: 1px solid black;
+  clear: both;
+  background: grey;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 9px black;
+  font-weight: bold;
+}
+a:hover{
+  color: cc00cc;
+}
+a{
+  cursor: pointer;
+}
